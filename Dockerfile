@@ -1,0 +1,1 @@
+# Dockerfile of the collector's container

@@ -2,20 +2,20 @@
 
 The following is the base structure for any 6fusion collector started from scratch:
 
-```Root folder
-├── app
-│   ├── collectors
-│   ├── connectors
-│   ├── lib
-│   ├── models
-│   └── modules
-├── config
-├── docker
-│   └── apps
-│       └── k8scollector
-├── kubernetes
-└── lib
-    └── tasks```
+    Root folder
+    ├── app
+    │   ├── collectors
+    │   ├── connectors
+    │   ├── lib
+    │   ├── models
+    │   └── modules
+    ├── config
+    ├── docker
+    │   └── apps
+    │       └── k8scollector
+    ├── kubernetes
+    └── lib
+        └── tasks
 
 ### Root folder
 Include in this folder the Dockerfile, Gemfiles, the bash script that installs the yaml definition of the Kubernetes items,

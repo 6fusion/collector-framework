@@ -12,7 +12,7 @@ The following is the base structure for any 6fusion collector started from scrat
     ├── config
     ├── docker
     │   └── apps
-    │       └── k8scollector
+    │       └── APP_INFO_HERE
     ├── kubernetes
     └── lib
         └── tasks
